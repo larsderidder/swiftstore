@@ -6,7 +6,12 @@ Sync and async helpers for OpenStack Swift object storage, including temporary U
 ## Install
 
 ```bash
-pip install swiftstore
+git clone https://github.com/larsderidder/swiftstore.git
+cd swiftstore
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install -U pip
+python -m pip install .
 ```
 
 ## Usage (sync)

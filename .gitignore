@@ -8,3 +8,9 @@ dist/
 .coverage
 .venv/
 .env
+
+.idea/
+.env.*
+!.env.example
+project-export-*.csv
+assignee-map.json
