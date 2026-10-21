@@ -12,6 +12,7 @@ license = { file = "LICENSE" }
 authors = [{ name = "Moving Spirits" }]
 dependencies = [
     "requests>=2.31",
+    "certifi>=2026.10.19",
     "aiohttp>=3.9,<3.13",
 ]
 
